@@ -1,0 +1,60 @@
+body{
+
+}
+
+.boks1{
+  background-image: url("file:///Users/vildeholmoy/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/OsloMet-dataingeni%C3%B8r/DAFE1200%20-%20Web%20og%20inkluderende%20design/Freaky-Friday/images/bakgrunn.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  height: 50vh;
+  width: 98vw;
+}
+
+ul.menu{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 1vw;
+  padding: 1vw;
+
+}
+
+
+@media screen and (min-width: 200px) {
+  .column {
+    width: 100%;
+  }
+}
