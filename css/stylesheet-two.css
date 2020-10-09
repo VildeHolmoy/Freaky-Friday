@@ -29,6 +29,8 @@ body {
 .inspirasjon {
   grid-column: col1-start;
   grid-row: row2-start;
+  border-right-style: solid;
+  border-color: purple;
 }
 
 .kjøpblomster {
@@ -47,9 +49,26 @@ body {
 }
 
 .mellomrom {
-    padding-top: 40fr;
-    padding-bottom: 40fr;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
+
+h1{
+  font-style: italic;
+  color: #330066;
+  padding-top: 7%;
+}
+
+h3 {
+  font-style: italic;
+  color: #330066;
+}
+
+a {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 
 ul.menu{
   text-decoration: none;
