@@ -36,6 +36,20 @@ body {
   grid-row: row2-start;
 }
 
+.butikker {
+  grid-column: col1-start/col2-end;
+  grid-row: row3-start/row4-start;
+}
+
+.om {
+  grid-column: col1-start/col2-end;
+  grid-row: row4-start/row4-end;
+}
+
+.mellomrom {
+    padding-top: 40fr;
+    padding-bottom: 40fr;
+}
 
 ul.menu{
   text-decoration: none;
