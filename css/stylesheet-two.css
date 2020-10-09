@@ -1,0 +1,69 @@
+body {
+
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: [col1-start] 50fr [col2-start] 50fr [col2-end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto
+                      [row4-start] auto [row4-end];
+
+}
+
+
+.bokser {
+  padding: 0px;
+}
+
+.overskrift {
+  grid-column: col1-start/col2-end;
+  grid-row: row1-start/row2-start;
+  background-image: url("file:///Users/vildeholmoy/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/OsloMet-dataingeni%C3%B8r/DAFE1200%20-%20Web%20og%20inkluderende%20design/Freaky-Friday/images/bakgrunn.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.inspirasjon {
+  grid-column: col1-start;
+  grid-row: row2-start;
+}
+
+.kjøpblomster {
+  grid-column: col2-start;
+  grid-row: row2-start;
+}
+
+
+ul.menu{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
+  font-size: 200%;
+  font-style: italic;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+  text-decoration-color: purple;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
