@@ -19,7 +19,7 @@ body {
 .overskrift {
   grid-column: col1-start/col2-end;
   grid-row: row1-start/row2-start;
-  background-image: url("file:///C:/Users/vilde/Documents/GitHub/Freaky-Friday/images/bakgrunn.png");
+  background-image: url("../images/bakgrunn.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
