@@ -19,7 +19,7 @@ body {
 .overskrift {
   grid-column: col1-start/col2-end;
   grid-row: row1-start/row2-start;
-  background-image: url("file:///Users/vildeholmoy/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/OsloMet-dataingeni%C3%B8r/DAFE1200%20-%20Web%20og%20inkluderende%20design/Freaky-Friday/images/bakgrunn.png");
+  background-image: url("../images/bakgrunn.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -46,6 +46,7 @@ body {
 .om {
   grid-column: col1-start/col2-end;
   grid-row: row4-start/row4-end;
+  padding-left: 5%;
 }
 
 .mellomrom {
