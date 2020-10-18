@@ -1,7 +1,5 @@
-body {
 
-}
-
+/* denne klassen omslutter hele siden */
 .wrapper {
   display: grid;
   grid-gap: 0px;
@@ -11,11 +9,12 @@ body {
 
 }
 
-
+/* denne boksen brukes for å ikke ha mellomrom mellom boksene*/
 .bokser {
   padding: 0px;
 }
 
+/* For headeren */
 .overskrift {
   grid-column: col1-start/col2-end;
   grid-row: row1-start/row2-start;
@@ -26,6 +25,7 @@ body {
   background-size: cover;
 }
 
+/* For venstre kolonne */
 .inspirasjon {
   grid-column: col1-start;
   grid-row: row2-start;
@@ -33,27 +33,26 @@ body {
   border-color: purple;
 }
 
+/* for høyre kolonne */
 .kjøpblomster {
   grid-column: col2-start;
   grid-row: row2-start;
 }
 
+/* for horisontal rad "Our Stores" */
 .butikker {
   grid-column: col1-start/col2-end;
   grid-row: row3-start/row4-start;
 }
 
+/* For nederste horisontale rad */
 .om {
   grid-column: col1-start/col2-end;
   grid-row: row4-start/row4-end;
   padding-left: 5%;
 }
 
-.mellomrom {
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
+/* overskrifter */
 h1{
   font-style: italic;
   color: #330066;
@@ -65,7 +64,8 @@ h3 {
   color: #330066;
 }
 
-a {
+/* For padding til de planlagte linkene */
+.padding {
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -77,7 +77,8 @@ ul.menu{
   text-align: center;
   padding: 20px;
   font-size: 200%;
-  font-style: italic;
+  font-style: oblique;
+  color: purple;
 }
 
 li {
@@ -95,6 +96,7 @@ li a:hover{
   text-decoration: underline;
 }
 
+/* for å midtstille */
 .center {
   display: block;
   margin-left: auto;
